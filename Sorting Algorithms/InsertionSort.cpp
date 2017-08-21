@@ -6,12 +6,12 @@ Space Complexity			= O(1)		==> Only '3' extra variables needed
 
 Time complexity of searching in sorted part of array can be improved by using
 Binary Search to O(logn), but every element after the desired place has to be
-shifted right which in worct case will take O(n) and this will be done 'n' times.
+shifted right which in worst case will take O(n) and this will be done 'n' times.
 So Worst Case Time Complexity remains O(n^2).
 
 We can improve movement time to O(1) by using Doubly Linked List. But then,
 instead of Binary search we'll have to use Linear Search, since Binary Search
-can't be applied to DLL. This makes Search Complexity O(n) and thiss will be done
+can't be applied to DLL. This makes Search Complexity O(n) and this will be done
 'n' times.
 So again, Worst Case Time Complexity remains O(n^2).
 
